@@ -1,6 +1,8 @@
-import { useEffect, useState } from 'react';
+import react,{ useEffect, useState } from 'react';
 import './phonebook.css'; // Ensure this is necessary, or you might rely solely on Tailwind CSS
 import Layout from './layout/Layout';
+import { Helmet } from 'react-helmet';
+
 
 function ShowQuestion() {
   const [data, setData] = useState([]);
@@ -56,6 +58,7 @@ function ShowQuestion() {
 
   return (
     <Layout title={'GK World Test Questions'}>
+      
       <div className="container mx-auto p-4">
         <section className="intro-text mb-6">
           <h2 className="text-xl font-semibold mb-2">Introduction</h2>
