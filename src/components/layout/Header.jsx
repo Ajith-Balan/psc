@@ -10,6 +10,8 @@ const Header = () => {
 
 
   return (
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5458368661860067"
+     crossorigin="anonymous"></script>
     <nav className="bg-gray-800">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
