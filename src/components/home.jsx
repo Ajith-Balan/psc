@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './phonebook.css'; // Ensure this is necessary, or you might rely solely on Tailwind CSS
 import Layout from './layout/Layout';
-import { Helmet } from 'react-helmet';
+
 
 function ShowQuestion() {
   const [data, setData] = useState([]);
@@ -57,13 +57,7 @@ function ShowQuestion() {
 
   return (
     <Layout title={'GK World Test Questions'}>
-      <Helmet>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5458368661860067"
-          crossOrigin="anonymous"
-        ></script>
-      </Helmet>
+
       
       <div className="container mx-auto p-4">
         <section className="intro-text mb-6">
